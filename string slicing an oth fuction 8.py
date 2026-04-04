@@ -1,0 +1,10 @@
+mystr="harry is a good boy"
+print(mystr[2])
+print(mystr[0:15])
+print(mystr.find("good"))
+print(mystr[0:5:2])
+print(mystr.isalnum())
+print(mystr.endswith("boy"))
+print(mystr.count("r"))
+print(mystr.count("is"))
+print(mystr.replace("harry","samarth"))
