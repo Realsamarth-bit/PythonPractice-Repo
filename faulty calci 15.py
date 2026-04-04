@@ -26,4 +26,6 @@ elif op=='/':
         print(i1/i2)
 else:
     print("invalid expression or number")
+    print("_------------------")
+    print("---------------")
 
