@@ -28,4 +28,5 @@ else:
     print("invalid expression or number")
     print("_------------------")
     print("---------------")
+    print("---------------")
 
