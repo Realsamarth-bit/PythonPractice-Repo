@@ -6,7 +6,13 @@ while(True):
     input1=int(input())
     if input1<18:
         print("guess upper number")
-        continue
+        print("number of guess left",numberofguess-1)
+        numberofguess=31
+        if numberofguess==0:
+            print("you lost")
+            break
+        else:
+            continue
     elif input1>18:
         print("guess lower number")
         continue
